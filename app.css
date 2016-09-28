@@ -27,3 +27,35 @@ a {
   text-decoration: none;
   font-size:
 }
+
+.card {
+  border-width: thin;
+}
+
+img {
+  height: 100px;
+  float: left;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+.repo {
+  float: left;
+  clear: both;
+}
+
+.language {
+  float: right;
+  width: 50%;
+}
+
+.repo__name {
+  float: left;
+  width: 50%;
+}
