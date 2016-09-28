@@ -1,3 +1,10 @@
 body {
   background-color: white;
+  margin: 0;
+}
+
+nav {
+  background-color: #4eb4c6;
+  color: #ffffff;
+
 }
