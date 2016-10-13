@@ -48,12 +48,12 @@ margin: 0;
 h3 {
   margin: 1rem;
   padding: 0;
-  display: flex;
+
 }
 
 .repo {
   float: left;
-  display: flex;
+
   clear: both;
 }
 
