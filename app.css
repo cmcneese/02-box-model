@@ -30,6 +30,7 @@ a {
 
 .card {
   border-width: thin;
+  display: flex;
 }
 
 img {
@@ -59,3 +60,5 @@ h3 {
   float: left;
   width: 50%;
 }
+
+/** ToDO: Add dots, border, finish styling**/
