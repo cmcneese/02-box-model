@@ -29,7 +29,9 @@ a {
 }
 
 .repo {
+  padding: 1rem;
   overflow: auto;
+  border-top: 0.1em solid lightgrey;
 }
 
 .container {
@@ -39,21 +41,22 @@ a {
 .card {
   border: 0.1em solid lightgrey;
   border-radius: 1rem;
-  width: calc(100% / 4 - 1rem - 1rem);
+  width: calc(100% / 3 - 1rem - 1rem);
+  min-width: 18rem;
   margin: 3rem;
   float: left;
 
 }
 
+
 .repo__name {
   padding: none;
   float: left;
-  width: 50%;
   margin: 0;
 }
 
-.language1 {
-  float: left;
+.repo__language__dot {
+  display: inline-block;
   /*width: 50%;*/
   background: red;
   height: 10px;
@@ -62,9 +65,8 @@ a {
   margin: 0;
 }
 
-.language__1 {
+.repo__language__name {
   float: right;
-  margin: .2em;
   /*padding: 1rem;*/
 }
 
@@ -75,33 +77,19 @@ img {
 
 /*User's Name*/
 h2 {
-  display: inline-block;
-  padding-top: -1rem;
-  float: left;
-  padding: 0.5rem;
   margin: 0;
 }
 
 /*Github Handle*/
 h3 {
   margin: 1.5rem;
-  padding: 1rem;
   color: gray;
-  float: inherit;
 }
-
-.repo2 {
-  float: left;
-  clear: both;
-  width: 100%;
-  overflow: auto;
-
-}
-
 
 
 .username {
   padding: 1rem;
+  overflow: auto;
 }
 
 .user__image {
