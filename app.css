@@ -43,7 +43,7 @@ a {
   border-radius: 1rem;
   width: calc(100% / 3 - 1rem - 1rem);
   min-width: 18rem;
-  margin: 3rem;
+  margin: 1rem;
   float: left;
 
 }
